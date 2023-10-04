@@ -85,7 +85,7 @@ const Post = ({ post }) => {
               <img
                 className="postProfileImg"
                 src={
-                  `http://localhost:5000/imagesProfile/${user.profilePicture}` ||
+                  `https://social-media-back-end-936o.onrender.com/imagesProfile/${user.profilePicture}` ||
                   noavatar
                 }
                 alt=""
@@ -136,7 +136,7 @@ const Post = ({ post }) => {
               src={
                 post.img.length > 25
                   ? post.img
-                  : `http://localhost:5000/images/${post.img}`
+                  : `https://social-media-back-end-936o.onrender.com/images/${post.img}`
               }
               alt=""
             />

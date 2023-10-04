@@ -60,7 +60,7 @@ const Share = () => {
           <Avatar
             src={
               allUserss[0]?.profilePicture
-                ? `http://localhost:5000/imagesProfile/${allUserss[0]?.profilePicture}`
+                ? `https://social-media-back-end-936o.onrender.com/imagesProfile/${allUserss[0]?.profilePicture}`
                 : noavatar
             }
             alt=""

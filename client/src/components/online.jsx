@@ -10,10 +10,10 @@ const Online = ({ user }) => {
             className="rightbarProfileImg"
             src={
               user.profilePicture
-                ? `http://localhost:5000/imagesProfile/${user.profilePicture}`
+                ? `https://social-media-back-end-936o.onrender.com/imagesProfile/${user.profilePicture}`
                 : noavatar
             }
-            alt=""
+            alt="profilepicture"
           />
           <span className="rightbarOnline"></span>
         </div>

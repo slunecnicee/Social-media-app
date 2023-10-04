@@ -121,7 +121,7 @@ const Rightbar = ({ user }) => {
                   <Avatar
                     src={
                       f.profilePicture
-                        ? `http://localhost:5000/imagesProfile/${f.profilePicture}`
+                        ? `https://social-media-back-end-936o.onrender.com/imagesProfile/${f.profilePicture}`
                         : noavatar
                     }
                     alt=""
@@ -180,7 +180,7 @@ const Rightbar = ({ user }) => {
                 <img
                   src={
                     friend.profilePicture
-                      ? `http://localhost:5000/imagesProfile/${friend.profilePicture}`
+                      ? `https://social-media-back-end-936o.onrender.com/imagesProfile/${friend.profilePicture}`
                       : noavatar
                   }
                   alt=""

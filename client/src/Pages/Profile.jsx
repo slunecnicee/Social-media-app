@@ -39,7 +39,7 @@ const Profile = () => {
               className="profileCoverImg"
               src={
                 user.coverPicture
-                  ? `http://localhost:5000/imagesCover/${user.coverPicture}`
+                  ? `https://social-media-back-end-936o.onrender.com/imagesCover/${user.coverPicture}`
                   : nocover
               }
               alt="cover pic"
@@ -48,7 +48,7 @@ const Profile = () => {
               className="profileUserImg"
               src={
                 user.profilePicture
-                  ? `http://localhost:5000/imagesProfile/${user.profilePicture}`
+                  ? `https://social-media-back-end-936o.onrender.com/imagesProfile/${user.profilePicture}`
                   : noavatar
               }
               alt="profile pic"

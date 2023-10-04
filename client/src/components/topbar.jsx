@@ -205,7 +205,7 @@ const Topbar = () => {
                     <img
                       src={
                         result.profilePicture
-                          ? `http://localhost:5000/imagesProfile/${result.profilePicture}`
+                          ? `https://social-media-back-end-936o.onrender.com/imagesProfile/${result.profilePicture}`
                           : noavatar
                       }
                       alt="profilepic"
@@ -247,7 +247,7 @@ const Topbar = () => {
             <img
               src={
                 allUsers[0]?.profilePicture
-                  ? `http://localhost:5000/imagesProfile/${allUsers[0]?.profilePicture}`
+                  ? `https://social-media-back-end-936o.onrender.com/imagesProfile/${allUsers[0]?.profilePicture}`
                   : noavatar
               }
               alt="profilepic"

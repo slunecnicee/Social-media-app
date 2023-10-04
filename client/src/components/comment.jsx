@@ -67,7 +67,7 @@ const Comment = ({ comment, allUsers, userId }) => {
     <ListItem key={comment._id} alignItems="flex-start">
       <ListItemAvatar>
         <Avatar
-          src={`http://localhost:5000/imagesProfile/${
+          src={`https://social-media-back-end-936o.onrender.com/imagesProfile/${
             allUsers[comment.userId]?.profilePicture || noavatar
           }`}
           alt="Profile"
